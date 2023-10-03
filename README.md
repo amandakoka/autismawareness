@@ -85,11 +85,11 @@ As a student, I want:
 
 I first started looking at the colors I would use for my website. I decided blue because blue is the color that represents autism and blue is associated with trustworthiness, honesty, reliablity and is used a lot in the health sector which autism is a part of. However I then realized that I will be adding images and that they need to go well with the websites colour scheme so I started looking at the images I will include in my website then decide on the color scheme. I decided on the images from [freepix](https://www.freepik.com/author/vectorjuice)(credited in the credits section) and found a color scheme based on the images using [Canva](https://www.canva.com/colors/color-palette-generator/). I decided to stick with the blue theme still as it represents autism, but use the type of blue in the images (#4243E4). I then looked on the website [color hexa](https://www.colorhexa.com) for different shades and tints, and found #CBCCF8 a lighter tint to go together with the blue. I want to keep the colors clean and simple so the user can focus on the information and content but with it still looking appealing. 
 
-![img of cartoon boy and girl playing with blocks]() ![color scheme from images above]() 
+![img of cartoon boys playing with blocks](documentation/autismboys.jpg) ![color scheme from images above](documentation/colorscheme.png) 
 
-![color hex]()  
+![color hex](documentation/colorhex1.png)  
 
-![shades of blue chosen]() ![color hex]() 
+![shades of blue chosen](documentation/shades.png) ![color hex](documentation/colorhex2.png) 
 
 ### Typography  
 
@@ -100,9 +100,9 @@ Google fonts was used for the fonts:
 
 ### Wireframes  
 
-* [Home page]() 
-* [Signs page]() 
-* [Contact us page]() 
+* [Home page](documentation/homepagewireframe.png) 
+* [Signs page](documentation/signspagewireframe.png) 
+* [Contact us page](documentation/contactuswireframe.png) 
 
 ### Accessibility  
 
@@ -112,6 +112,6 @@ Roboto and archivo pair well together. Roboto uses simplified characters which s
 
 ### Colour Scheme  
 
-![color blindness test]() ![color blindness test]() 
+![color blindness test](documentation/colorblind1.png) ![color blindness test](documentation/colorblind2.png)
 
  
