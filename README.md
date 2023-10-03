@@ -48,32 +48,33 @@ The autism awareness website is a great way to meet these needs because:
 * There is a contact page which is easy to find. 
 * All social media are linked in the footer consistenly on all pages. 
 
-### User Stories  
-User goals: 
+* ### User Stories  
+ User goals: 
 
-* Be able to view the website on a range of device sizes(mobile, tablet, desktop)  
-* Make is easy for users to use and navigate to different pages to find information they need. 
-* To allow users the ability to contact to ask questions or with any messages they want to leave ect.. 
+1. Be able to view the website on a range of device sizes(mobile, tablet, desktop)  
+2. Make is easy for users to use and navigate to different pages to find information they need. 
+3. To allow users the ability to contact to ask questions or with any messages they want to leave ect.. 
 
-First time visitor goals: 
+* First time visitor goals: 
 
-* As a first time visitor, I want to easily understand the main purpose of the site and learn more about the Autism.
-* As a first time visitor, I want to be able to easily navigate throughout the site to find content and information I need.
-* As a first time visitor, I want to see the signs of autism, I also want to find links to social media, to see how trusted and known they are. 
+1. As a first time visitor, I want to easily understand the main purpose of the site and learn more about the Autism.
+2. As a first time visitor, I want to be able to easily navigate throughout the site to find content and information I need.
+3. As a first time visitor, I want to see the signs of autism, I also want to find links to social media, to see how trusted and known they are. 
 
-Returning visitors: 
+* Returning visitors: 
 
-* As a returning visitor, I want to check my knowlegde on autism and find information about it
-* As a returning visitor, I want to find ways to get in contact with any questions I may have.
-* As a returning visitor, 
+1. As a returning visitor, I want to check my knowlegde on autism and find information about it
+2. As a returning visitor, I want to find ways to get in contact with any questions I may have.
+3. As a returning visitor, I want to watch find the video I watched the first time visiting describing what autism is.
 
-Frequent user goals:
-* As a frequent user, I want to check to see if any new information has been added or changed
-* As a frequent user, 
-* As a frequent user,
+* Frequent user goals:
+  
+1. As a frequent user, I want to check to see if any new information has been added or changed.
+2. As a frequent user, I want to see if any more videos/images have been added that I can look at. 
+3. As a frequent user, I want to see if there are any new links.
 
 
-As a student, I want: 
+* As a student, I want: 
 
 1. To learn about autism. 
 2. The ability to find and understand the information provided on the webiste. 
@@ -91,11 +92,14 @@ I first started looking at the colors I would use for my website. I decided blue
 
 ![shades of blue chosen](documentation/shades.png) ![color hex](documentation/colorhex2.png) 
 
+### Imagery
+All images have the same colours so they are consistent and appealing to the eye. Users wont get confused with different colours and the images are user friendly for all ages.
+
 ### Typography  
 
 Google fonts was used for the fonts: 
 
-* Roboto wich is used for body text, its a sans-serif font. 
+* The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean font which uses simplified characters that stand apart from each other and appear easier to read for users with dyslexia and visual impairment.
 * Archivo used for headings which is a sans-serif font. 
 
 ### Wireframes  
