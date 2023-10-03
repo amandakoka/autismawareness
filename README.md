@@ -19,9 +19,9 @@ The Autism awareness website is designed to be a responsive website allowing vis
 6. [Credits] 
 
 ## User experience 
-### Project goals  
+#### Project goals
 The primary goal of the autism awareness website is to provide information and to educate users on autism. Its target audience is: students and parents with children(children with autism). 
-### Student goals 
+#### Student goals 
 Student goals are: 
 
 * Easy navigation. 
@@ -35,7 +35,7 @@ The autism awareness website is a great way to meet these needs because:
 * Information is layout in a clear structure in which users can easily read and understand. 
 * Videos and images are all related to autism and even have the same colour scheme( which also goes with the theme of the website). 
 
-### Parent goals 
+#### Parent goals 
 Parents goals are: 
 
 * A visually appealing, informative website. 
@@ -49,32 +49,32 @@ The autism awareness website is a great way to meet these needs because:
 * All social media are linked in the footer consistenly on all pages. 
 
 * ### User Stories  
- User goals: 
+ #### User goals: 
 
 1. Be able to view the website on a range of device sizes(mobile, tablet, desktop)  
 2. Make is easy for users to use and navigate to different pages to find information they need. 
 3. To allow users the ability to contact to ask questions or with any messages they want to leave ect.. 
 
-* First time visitor goals: 
+#### First time visitor goals: 
 
 1. As a first time visitor, I want to easily understand the main purpose of the site and learn more about the Autism.
 2. As a first time visitor, I want to be able to easily navigate throughout the site to find content and information I need.
 3. As a first time visitor, I want to see the signs of autism, I also want to find links to social media, to see how trusted and known they are. 
 
-* Returning visitors: 
+#### Returning visitors: 
 
 1. As a returning visitor, I want to check my knowlegde on autism and find information about it
 2. As a returning visitor, I want to find ways to get in contact with any questions I may have.
 3. As a returning visitor, I want to watch find the video I watched the first time visiting describing what autism is.
 
-* Frequent user goals:
+#### Frequent user goals:
   
 1. As a frequent user, I want to check to see if any new information has been added or changed.
 2. As a frequent user, I want to see if any more videos/images have been added that I can look at. 
 3. As a frequent user, I want to see if there are any new links.
 
 
-* As a student, I want: 
+#### As a student, I want: 
 
 1. To learn about autism. 
 2. The ability to find and understand the information provided on the webiste. 
