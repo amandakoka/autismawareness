@@ -9,14 +9,15 @@ The Autism awareness website is designed to be a responsive website allowing vis
    * [Project Goals](#project-goals) 
    * [User Stories](#user-stories) 
    * [Design Choices](#design-choices) 
-   * [Wireframes](#wireframes) 
+   * [Wireframes](#wireframes)
+2. [Features](#features)
    * [Accessibility](#accessibility) 
-
-2. [Features] 
-3. [Technologies used] 
-4. [Testing] 
-5. [Deployment] 
-6. [Credits] 
+4. [Technologies used](#technologies-used)
+   * [Languages used](#languages-used)
+   * [Frameworks, Libaries and Programs Used](#frameworks,-libaries-and-programs-used)
+5. [Testing](#testing)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
 
 ## User experience 
 #### Project goals
@@ -48,7 +49,7 @@ The autism awareness website is a great way to meet these needs because:
 * There is a contact page which is easy to find. 
 * All social media are linked in the footer consistenly on all pages. 
 
-* ### User Stories  
+ ### User Stories  
  #### User goals: 
 
 1. Be able to view the website on a range of device sizes(mobile, tablet, desktop)  
@@ -108,6 +109,20 @@ Google fonts was used for the fonts:
 * [Signs page](documentation/signspagewireframe.png) 
 * [Contact us page](documentation/contactuswireframe.png) 
 
+
+
+## Features
+The website is comprised of 3 pages, in which are accessible from the navigation menu (home page, signs page, contact us page).
+
+All pages on website have: A responsive navigation bar, at the top of the page under the heading, which allows the user to navigate through the site. The navigation bar consists of links to each page and lines vertically when in mobile view. A footer which contains links to social media account such as Facebook, Twitter, YouTube and Instagram.
+
+Home page:
+What is autism section- explains what autism is with an image to the right of the text. Information on how many people have autism with a YouTube video (what is autism) to the right of the text. 
+
+Signs page: Signs in children and adults with a picture in the middle. Signs of autism in girls' section – text explaining autism in girls with an image to the right.
+
+Contact us page: Form that contains name, email address and ‘your message’ section for the user to write what they would like to contact about. The user submits this by using the submit button. Users must fill in the name, email and message area to submit if they don’t a tooltip guides users to fill in sections they have missed.
+
 ### Accessibility  
 
 ### Fonts 
@@ -118,4 +133,27 @@ Roboto and archivo pair well together. Roboto uses simplified characters which s
 
 ![color blindness test](documentation/colorblind1.png) ![color blindness test](documentation/colorblind2.png)
 
- 
+## Technologies Used
+### Languages used 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Google fonts](https://fonts.google.com/) was used to import roboto and archivo font into style.css file which is used on all pages throughout the project.
+2. [Font awesome](https://fontawesome.com/) was used on all pages throughout the website to add icons to footer links for aesthetic and UX purposes.
+3. [Hover.css](https://ianlunn.github.io/Hover/) was used on the navbar menu so when you hover over on one of the items a line appears underneath.
+4. [Git](https://git-scm.com/) is used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+5. [Github](https://github.com) is used to store the projects code after being pushed from Git.
+6. [Figma]() was to create the wireframes during the design process.
+7. [Tiny PNG]() to compress images
+
+## Testing
+
+## Deployment 
+
+## Credits
+
+All images came from [freepix by vectorjuice](https://www.freepik.com/author/vectorjuice)
+
+The video used in the webiste is from [youtube by the national autistic society](https://www.youtube.com/watch?v=Lk4qs8jGN4U) 
