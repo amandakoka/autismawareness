@@ -125,6 +125,14 @@ Contact us page: Form that contains name, email address and ‘your message’ s
 
 ### Accessibility  
 
+I have been mindful during the coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
+
+* Using semantic HTML
+* Using descriptive alt attributes on images on the site
+* Ensuring that there is a sufficient colour contrast throughout the site.
+* Ensuring menus are accessible and easy to find by marking the current page with a line 
+ underneath the title.
+
 ### Fonts 
 
 Roboto and archivo pair well together. Roboto uses simplified characters which stand apart from each other and appear easier to read for users with dyslexia and visual impairment. 
@@ -145,10 +153,25 @@ Roboto and archivo pair well together. Roboto uses simplified characters which s
 3. [Hover.css](https://ianlunn.github.io/Hover/) was used on the navbar menu so when you hover over on one of the items a line appears underneath.
 4. [Git](https://git-scm.com/) is used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 5. [Github](https://github.com) is used to store the projects code after being pushed from Git.
-6. [Figma]() was to create the wireframes during the design process.
-7. [Tiny PNG]() to compress images
+6. [Figma](https://www.figma.com/) was to create the wireframes during the design process.
+7. [Compress png](https://compresspng.com/) to compress images.
+8. [Retoucher](https://retoucher.online/) to remove background of images.
 
 ## Testing
+Testing was ongoing throughout the entire build of the webiste. I utilised Chrome Developer tools while building to pinpoint and troubleshoot any issues as I went along.
+
+### Bugs
+
+The following issues were raised during my mid project meeting with my mentor:
+1. My images were wider than the rest of my main content while on mobile view
+   * ![Home page image](documentation/imagebug.png) I solved this by removing the background of 
+   the images and reducing the size so it would fit better on different screen sizes.
+2. My tiles and content were not alligned on larger screens, so I alligned and styled all headings and content consistent throughout the website.
+3. On larger screens my footer, floated a little up the page with a bar below. I solved this by removing the height style in my media query.
+4. There was too much text and content, so I cut down the amount of information throughout the webiste.
+
+![Footer Bug](documentation/footerbug.png) My footer seemed to slide to the left, so I inspected this and found the problem and resolved it by adding space above the footer so the image wasn't obstructing or in the way of the footer.
+
 
 ## Deployment 
 
@@ -157,3 +180,8 @@ Roboto and archivo pair well together. Roboto uses simplified characters which s
 All images came from [freepix by vectorjuice](https://www.freepik.com/author/vectorjuice)
 
 The video used in the webiste is from [youtube by the national autistic society](https://www.youtube.com/watch?v=Lk4qs8jGN4U) 
+
+Content/information credits 
+[Home page](https://www.autism.org.uk/advice-and-guidance/what-is-autism) 
+[Signs page](https://www.nhs.uk/conditions/autism/signs)
+[Autism in girls](https://childmind.org/article/autistic-girls-overlooked-undiagnosed-autism/)
