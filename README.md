@@ -16,7 +16,13 @@ The Autism awareness website is designed to be a responsive website allowing vis
    * [Languages used](#languages-used)
    * [Frameworks, Libaries and Programs Used](#frameworks,-libaries-and-programs-used)
 5. [Testing](#testing)
+   * [Solved bugs](#solvedbugs)
+   * [Known bugs](#knownbugs)
+   * [W3C validator](#w3cvalidator)
+   * [Testing User Stories](#testinguserstories)
+   * [Full testing](#fulltesting)
 6. [Deployment](#deployment)
+   * [Local deployment](#localdeployment)
 7. [Credits](#credits)
 
 ## User experience 
@@ -114,14 +120,17 @@ Google fonts was used for the fonts:
 ## Features
 The website is comprised of 3 pages, in which are accessible from the navigation menu (home page, signs page, contact us page).
 
-All pages on website have: A responsive navigation bar, at the top of the page under the heading, which allows the user to navigate through the site. The navigation bar consists of links to each page and lines vertically when in mobile view. A footer which contains links to social media account such as Facebook, Twitter, YouTube and Instagram.
+#### All pages on website have:
+A responsive navigation bar, at the top of the page under the heading, which allows the user to navigate through the site. The navigation bar consists of links to each page and lines vertically when in mobile view. A footer which contains links to social media account such as Facebook, Twitter, YouTube and Instagram.
 
-Home page:
+#### Home page:
 What is autism section- explains what autism is with an image to the right of the text. Information on how many people have autism with a YouTube video (what is autism) to the right of the text. 
 
-Signs page: Signs in children and adults with a picture in the middle. Signs of autism in girls' section – text explaining autism in girls with an image to the right.
+#### Signs page: 
+Signs in children and adults with a picture in the middle. Signs of autism in girls' section – text explaining autism in girls with an image to the right.
 
-Contact us page: Form that contains name, email address and ‘your message’ section for the user to write what they would like to contact about. The user submits this by using the submit button. Users must fill in the name, email and message area to submit if they don’t a tooltip guides users to fill in sections they have missed.
+#### Contact us page: 
+Form that contains name, email address and ‘your message’ section for the user to write what they would like to contact about. The user submits this by using the submit button. Users must fill in the name, email and message area to submit if they don’t a tooltip guides users to fill in sections they have missed.
 
 ### Accessibility  
 
@@ -160,7 +169,7 @@ Roboto and archivo pair well together. Roboto uses simplified characters which s
 ## Testing
 Testing was ongoing throughout the entire build of the webiste. I utilised Chrome Developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
-### Bugs
+### Solved Bugs
 
 The following issues were raised during my mid project meeting with my mentor:
 1. My images were wider than the rest of my main content while on mobile view
@@ -170,18 +179,41 @@ The following issues were raised during my mid project meeting with my mentor:
 3. On larger screens my footer, floated a little up the page with a bar below. I solved this by removing the height style in my media query.
 4. There was too much text and content, so I cut down the amount of information throughout the webiste.
 
+#### Whilst coding
 ![Footer Bug](documentation/footerbug.png) My footer seemed to slide to the left, so I inspected this and found the problem and resolved it by adding space above the footer so the image wasn't obstructing or in the way of the footer.
+
+### Known Bugs
+
+### W3C Validator 
+The W3C validator was used to validate the HTML on all pages of the website and the CSS in style.css file.
+* [Index page html]
+* [Signs page html]
+* [Contact us page html]
+* [Style.css CSS]
+
+### Testing User Stories 
+### Full testing 
 
 
 ## Deployment 
+GitHub was used to deploy the live website. To do this you need to:
+
+### Local Deployment
+#### How to Fork
+#### How to Clone
 
 ## Credits
 
-All images came from [freepix by vectorjuice](https://www.freepik.com/author/vectorjuice)
+### Content and Media
+1. All images came from [freepik by vectorjuice](https://www.freepik.com/author/vectorjuice)
+2. The video used in the webiste is from [youtube by the national autistic society](https://www.youtube.com/watch?v=Lk4qs8jGN4U) 
+3. Information and facts on home page used from [here](https://www.autism.org.uk/advice-and-guidance/what-is-autism) 
+4. Information and facts on signs page used from[here](https://www.nhs.uk/conditions/autism/signs)
+5. Information and facts on autism in girls section from[here](https://childmind.org/article/autistic-girls-overlooked-undiagnosed-autism/)
 
-The video used in the webiste is from [youtube by the national autistic society](https://www.youtube.com/watch?v=Lk4qs8jGN4U) 
+### Code
+1. CSS code for footer used from code institutes love running project and edited for my website. 
+2. CSS code for contact page form was taken from this [website](https://stjepanmesaros.github.io/portfolio-project-one-anxiety/contact.html) and edited to fit my websites needs.
+3. W3Schools being resource for information if needed. 
 
-Content/information credits 
-[Home page](https://www.autism.org.uk/advice-and-guidance/what-is-autism) 
-[Signs page](https://www.nhs.uk/conditions/autism/signs)
-[Autism in girls](https://childmind.org/article/autistic-girls-overlooked-undiagnosed-autism/)
+### Acknowledgements 
