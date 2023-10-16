@@ -191,7 +191,13 @@ button {
   margin-top: 0;
   margin-bottom: 0;
 }
-
+/*--------------thankyou page*/
+.thankyouimg {
+  padding-bottom: 20%;
+}
+.thankyoup {
+  padding-top: 10%;
+}
 /*------------------------------------------------------------media queries*/
 @media screen and (min-width: 800px) {
 
@@ -274,5 +280,16 @@ button {
 
   #autismgirls {
     font-size: 120%;
+  }
+  /*----------------thankyou page*/
+  .thankyoup {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .thankyouimg {
+    width: 400px;
+    padding-bottom: 5%;
   }
 }
