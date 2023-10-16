@@ -104,7 +104,8 @@ iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   
 }
 /*------------------------------------------------------------footer styling*/
@@ -153,6 +154,44 @@ ul li {
   background-color: #CBCCF8;
   margin-bottom: 4em;
 }
+/*------------------------------------------------------------------------contact us page styling*/
+#formbg {
+  padding-top: 5%;
+  background-color:#CBCCF8;
+}
+/*----------code copied and edited to fit webistes need credited in my credits section in readme.md file*/
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin: auto;
+}
+
+form label, textarea, input {
+   margin-top: 10px;
+}
+
+input, textarea {
+  border: 1px solid #333333;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color:#fafafa;
+  color: #000000;
+  border: 1px solid #333333;
+  border-radius: 2px;
+  font-size: 110%;
+  margin-bottom: 125px;
+}
+#contactfooter {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 /*------------------------------------------------------------media queries*/
 @media screen and (min-width: 800px) {
 
@@ -191,12 +230,17 @@ ul li {
     width:450px;
     margin-top: 8em;
   }
+
+  #autismvideo {
+    display: flex;
+    justify-content: center;
+  }
   
   iframe {
-    float: right;
     width: 460px;
     height: 300px;
-    margin-top: 20%;
+    margin-bottom: 4em;
+
   }
   /*-----------------------signs page*/
   #noshowdt {
