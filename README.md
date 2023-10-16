@@ -1,7 +1,7 @@
 # Autism Awareness Website 
 
 ## Introduction 
-The Autism awareness website is designed to be a responsive website allowing visitors to view on a range of devices from iPhone, tablet and desktop. It is an informative website in which users can use to learn about what autism is, the signs of autism and find support. This website is designed to inform users of autism. It contains information regarding autism ranging from the diagnosis, signs and symptoms, contact and support.The website is comprised of 3 pages, in which are accessible from the navigation menu (home page, signs page, contact us page).  
+The Autism awareness website is designed to be a responsive website allowing visitors to view on a range of devices from iPhone, tablet and desktop. It is an informative website in which users can use to learn about what autism is, the signs of autism and find support. This website is designed to inform users of autism. It contains information regarding autism ranging from the diagnosis, signs and symptoms, contact and support.The website is comprised of 3 pages, in which are accessible from the navigation menu (home page, signs page, contact us page). And a thankyou page which can be seen after submitting your form on the contact page. 
 
 ## Table of Contents  
 
@@ -130,7 +130,10 @@ What is autism section- explains what autism is with an image to the right of th
 Signs in children and adults with a picture in the middle. Signs of autism in girls' section – text explaining autism in girls with an image to the right.
 
 #### Contact us page: 
-Form that contains name, email address and ‘your message’ section for the user to write what they would like to contact about. The user submits this by using the submit button. Users must fill in the name, email and message area to submit if they don’t a tooltip guides users to fill in sections they have missed.
+Form that contains name, email address and ‘your message’ section for the user to write what they would like to contact about. The user submits this by using the submit button. Users must fill in the name, email and message area to submit if they don’t a tooltip guides users to fill in sections they have missed. Once you submit, the user will be taken to a thankyou page which has a message saying thankyou for contacting us!!
+
+#### Thankyou page:
+Has a comment saying thankyou for contacting and a sentence saying we will be back in touch soon. And an image beneath tying all the images used on the website together. 
 
 ### Accessibility  
 
