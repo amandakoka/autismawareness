@@ -1,7 +1,7 @@
 # Autism Awareness Website 
 
 ## Introduction 
-The Autism awareness website is designed to be a responsive website allowing visitors to view on a range of devices from iPhone, tablet and desktop. It is an informative website in which users can use to learn about what autism is, the signs of autism and find support. This website is designed to inform users of autism. It contains information regarding autism ranging from the diagnosis, signs and symptoms, contact and support.The website is comprised of 3 pages, in which are accessible from the navigation menu (home page, signs page, contact us page). And a thankyou page which can be seen after submitting your form on the contact page. 
+The Autism awareness website is designed to be a responsive website allowing visitors to view on a range of devices from iPhone, tablet and desktop. It is an informative website in which users can use to learn about what autism is, the signs of autism and find support. This website is designed to inform users of autism. It contains information regarding autism ranging from the diagnosis, signs and symptoms, contact and support.The website is comprised of 3 pages, in which are accessible from the navigation menu (home page, signs page, contact us page). And a thank you page which can be seen after submitting your form on the contact page. 
 
 ## Table of Contents  
 
@@ -70,7 +70,7 @@ The autism awareness website is a great way to meet these needs because:
 
 #### Returning visitors: 
 
-1. As a returning visitor, I want to check my knowlegde on autism and find information about it
+1. As a returning visitor, I want to check my knowledge on autism and find information about it
 2. As a returning visitor, I want to find ways to get in contact with any questions I may have.
 3. As a returning visitor, I want to watch find the video I watched the first time visiting describing what autism is.
 
@@ -130,9 +130,9 @@ What is autism section- explains what autism is with an image to the right of th
 Signs in children and adults with a picture in the middle. Signs of autism in girls' section – text explaining autism in girls with an image to the right.
 
 #### Contact us page: 
-Form that contains name, email address and ‘your message’ section for the user to write what they would like to contact about. The user submits this by using the submit button. Users must fill in the name, email and message area to submit if they don’t a tooltip guides users to fill in sections they have missed. Once you submit, the user will be taken to a thankyou page which has a message saying thankyou for contacting us!!
+Form that contains name, email address and ‘your message’ section for the user to write what they would like to contact about. The user submits this by using the submit button. Users must fill in the name, email and message area to submit if they don’t a tooltip guides users to fill in sections they have missed. Once you submit, the user will be taken to a thank you page which has a message saying thankyou for contacting us!!
 
-#### Thankyou page:
+#### Thank you page:
 Has a comment saying thankyou for contacting and a sentence saying we will be back in touch soon. And an image beneath tying all the images used on the website together. 
 
 ### Accessibility  
@@ -176,8 +176,8 @@ Testing was ongoing throughout the entire build of the webiste. I utilised Chrom
 
 The following issues were raised during my mid project meeting with my mentor:
 1. My images were wider than the rest of my main content while on mobile view
-   * ![Home page image](documentation/imagebug.png) I solved this by removing the background of 
-   the images and reducing the size so it would fit better on different screen sizes.
+   * I solved this by removing the background of the images and reducing the size so it would fit better on different screen sizes.
+     ![Home page image](documentation/imagebug.png)
 2. My tiles and content were not alligned on larger screens, so I alligned and styled all headings and content consistent throughout the website.
 3. On larger screens my footer, floated a little up the page with a bar below. I solved this by removing the height style in my media query.
 4. There was too much text and content, so I cut down the amount of information throughout the webiste.
@@ -200,10 +200,27 @@ The W3C validator was used to validate the HTML on all pages of the website and 
 
 ## Deployment 
 GitHub was used to deploy the live website. To do this you need to:
+1. Log in or signup to Github.
+2. Find the repository for this website, autismawareness.
+3. Click on the settings link.
+4. Click on the pages link in the left hand side navigation bar.
+5. In the source section select deploy from a branch.
+6. Below this in the branch section, select main from the menu and root from the folder menu.
+7. Click save and your live Github pages site is deployed in the URL shown.
 
 ### Local Deployment
 #### How to Fork
+To fork the autismawareness site:
+1. Log in or signup to Github.
+2. Find the repository for this website, autismawareness.
+3. Click the fork button in the top right corner.
 #### How to Clone
+To clone:
+1. Log in or signup to Github.
+2. Find the repository for this website, autismawareness.
+3. Click on the code button and select whether you would like to clone with HTTPS,SSH or Github CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal, then paste the link you copied in step 3. Press enter.
 
 ## Credits
 
