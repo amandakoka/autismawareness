@@ -17,8 +17,9 @@ The Autism awareness website is designed to be a responsive website allowing vis
    * [Frameworks, Libaries and Programs Used](#frameworks,-libaries-and-programs-used)
 5. [Testing](#testing)
    * [Bugs](#bugs)
-   * [W3C validator](#w3cvalidator)
    * [Testing User Stories](#testinguserstories)
+   * [W3C validator](#w3cvalidator)
+   * [Lighthouse](#lighthouse)
    * [Full testing](#fulltesting)
 6. [Deployment](#deployment)
    * [Local deployment](#localdeployment)
@@ -195,14 +196,6 @@ My footer seemed to slide to the left, so I inspected this and found the problem
    ![Home page 2nd section](documentation/hp-bottomsection.png)
    ![Signs page 2nd section](documentation/signspage-bottomsec.png)
    
-### W3C Validator 
-The W3C validator was used to validate the HTML on all pages of the website and the CSS in style.css file.
-* [Index page html](documentation/hpvalidatorr.png)
-* [Signs page html](documentation/signsvalidator.png)
-* [Contact us page html](documentation/contactvalidator.png)
-* [Thank you page html](documentation/thankyouvalidator.png)
-* [Style.css CSS]
-
 ### Testing User Stories 
 * First time visitors  
 
@@ -233,7 +226,19 @@ The W3C validator was used to validate the HTML on all pages of the website and 
   * I want to watch find the video I watched the first time visiting describing what autism is.
   ![Video](documentation/videoreturn.png)
 
+### W3C Validator 
+The W3C validator was used to validate the HTML on all pages of the website and the CSS in style.css file.
+* [Index page html](documentation/hpvalidatorr.png)
+* [Signs page html](documentation/signsvalidator.png)
+* [Contact us page html](documentation/contactvalidator.png)
+* [Thank you page html](documentation/thankyouvalidator.png)
+* [Style.css CSS]
+
+### Lighthouse
+
 ### Full testing 
+
+
 
 
 ## Deployment 
