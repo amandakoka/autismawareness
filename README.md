@@ -20,10 +20,10 @@ The Autism awareness website is designed to be a responsive website allowing vis
    * [Testing User Stories](#testinguserstories)
    * [W3C validator](#w3cvalidator)
    * [Lighthouse](#lighthouse)
-   * [Full testing](#fulltesting)
-6. [Deployment](#deployment)
+6. [Full testing](#fulltesting)    
+7. [Deployment](#deployment)
    * [Local deployment](#localdeployment)
-7. [Credits](#credits)
+8. [Credits](#credits)
 
 ## User experience 
 #### Project goals
@@ -185,17 +185,23 @@ Testing was ongoing throughout the entire build of the webiste. I utilised Chrom
 4. There was too much text and content, so I cut down the amount of information throughout the webiste.
 
 #### Whilst coding
-My footer seemed to slide to the left, so I inspected this and found the problem and resolved it by adding space above the footer so the image wasn't obstructing or in the way of the footer.
+* My footer seemed to slide to the left, so I inspected this and found the problem and resolved it by adding space above the footer so the image wasn't obstructing or in the way of the footer.
 ![Footer Bug](documentation/footerbug.png) 
 
 #### Mid project meeting with my mentor:
 1. On my contact page, when clicking the submit button, it wasnt being redirected to the thankyou.html page. I Solved this by adding the method and action to the form.
-2. On certain sizes, there were issues with my page 2 top section.
+2. On certain sizes, there were issues with my page 2 top section. I fixed this by adding css media query.
    * ![Tablet bug](documentation/tabletbug.PNG)
-3. The bottom section of the second page was different to the first, so it was recommended to maybe try keep the consistency so I decided to.
+3. The bottom section of the second page was different to the first, so it was recommended to maybe try keep the consistency so I decided to keep them consistent.
    ![Home page 2nd section](documentation/hp-bottomsection.png)
    ![Signs page 2nd section](documentation/signspage-bottomsec.png)
    
+#### Whilst coding
+* My contact and thankyou page were distorted when in tablet view and not filling the view properly. I fixed this by adding media query for tablet view and adding different styles.
+  ![Contact, Thank you Bug](documentation/contacttabletbug.png)
+* Whilst checking different devices on chrome tools I found that on galaxy fold the logo is too big and goes off the page.
+  ![Galaxy Fold bug](documentation/galaxyfoldbug.png)
+    
 ### Testing User Stories 
 * First time visitors  
 
@@ -232,15 +238,91 @@ The W3C validator was used to validate the HTML on all pages of the website and 
 * [Signs page html](documentation/signsvalidator.png)
 * [Contact us page html](documentation/contactvalidator.png)
 * [Thank you page html](documentation/thankyouvalidator.png)
-* [Style.css CSS]
+* [Style.css CSS](documentation/cssvalidator.png)
 
 ### Lighthouse
-I used Lighthouse chrome developer tools to test the performance, accessibility, best practices and SEO of the website. It was suggested to add meta description and aria label to my footers icons on each page, so I did.
+I used Lighthouse chrome developer tools to test the performance, accessibility, best practices and SEO of the website. It was suggested to add meta description and aria label to my footers icons on each page, so I did this then tested again.
 
-### Full testing 
+## Full testing 
+To fully test the webiste, I performed the following testing on browsers(Google Chrome, Safari and Firefox) and on devices(MacBook Air 13 inch, Iphone 11, Iphone12, Iphone12 mini, Ipad 7th generation). I also went through each page using google chrome developer tools to ensure the responsiveness on different screen sizes. 
 
+## Google Chrome
+#### Links
+* Macbook air:
+* Iphone 11:
+* Iphone 12:
+* Iphone 12 mini:
+* Ipad:
+#### Text Content
+* Macbook air:
+* Iphone 11:
+* Iphone 12:
+* Iphone 12 mini:
+* Ipad:
+#### Media Content
+* Macbook air:
+* Iphone 11:
+* Iphone 12:
+* Iphone 12 mini:
+* Ipad:
+#### Contact Us Page
+* Macbook air:
+* Iphone 11:
+* Iphone 12:
+* Iphone 12 mini:
+* Ipad:
 
+## Safari
+#### Links
+* Macbook air:
+* Iphone 11:
+* Iphone 12:
+* Iphone 12 mini:
+* Ipad:
+#### Text Content
+* Macbook air:
+* Iphone 11:
+* Iphone 12:
+* Iphone 12 mini:
+* Ipad:
+#### Media Content
+* Macbook air:
+* Iphone 11:
+* Iphone 12:
+* Iphone 12 mini:
+* Ipad:
+#### Contact Us Page
+* Macbook air:
+* Iphone 11:
+* Iphone 12:
+* Iphone 12 mini:
+* Ipad:
 
+## Firefox
+#### Links
+* Macbook air:
+* Iphone 11:
+* Iphone 12:
+* Iphone 12 mini:
+* Ipad:
+#### Text Content
+* Macbook air:
+* Iphone 11:
+* Iphone 12:
+* Iphone 12 mini:
+* Ipad:
+#### Media Content
+* Macbook air:
+* Iphone 11:
+* Iphone 12:
+* Iphone 12 mini:
+* Ipad:
+#### Contact Us Page
+* Macbook air:
+* Iphone 11:
+* Iphone 12:
+* Iphone 12 mini:
+* Ipad:
 
 ## Deployment 
 GitHub was used to deploy the live website. To do this you need to:
