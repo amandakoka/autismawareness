@@ -20,7 +20,6 @@ img {
  margin-left: auto;
  margin-right: auto;
  width: 300px;
-
 }
 /*----------------------------------------------------header styling*/
 h2 {
@@ -81,13 +80,11 @@ p {
   text-align: left;
 }
 
-
 .imgboys {
   display: block;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 5%;
-  width: 300px;
 }
 /*-----------------------------------hp section2 styling*/
 .section2 {
@@ -105,10 +102,9 @@ iframe {
   margin-right: auto;
   padding-top: 30px;
   padding-bottom: 30px;
-  
 }
 /*------------------------------------------------------------footer styling*/
-/*from code instutute love running project, edited to fit my website*/
+/*-----------------------from code instutute love running project, edited to fit my website*/
 footer {
   background-color:#4243E4;
 }
@@ -145,15 +141,16 @@ ul li {
   text-transform: none;
   letter-spacing: normal;
 }
+
 .signssect {
   text-align: center;
   margin-top: 4em;
 }
-
 /*------------------------------------------------------------------------contact us page styling*/
 #formbg {
-  padding-top: 5%;
   background-color:#CBCCF8;
+  padding-top: 20%;
+  padding-bottom: 25%;
 }
 /*----------code copied and edited to fit webistes need credited in my credits section in readme.md file*/
 form {
@@ -191,6 +188,7 @@ input, textarea {
 .thankyouimg {
   padding-bottom: 20%;
 }
+
 .thankyoup {
   padding-top: 10%;
 }
@@ -201,7 +199,43 @@ p#thankyoup {
   padding: 0;
 }
 /*------------------------------------------------------------media queries*/
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 768px) {
+  
+  img {
+    width: 420px;
+  }
+
+  h1 {
+    font-size: 280%;
+  }
+ /*-------------header*/
+  h2#logo {
+    font-size: 350%;
+  }
+
+  ul#menu {
+    font-size: 130%;
+  }
+  /*----------homepage*/
+  img.imgboys {
+    padding-bottom: 0;
+  }
+
+  iframe {
+    width: 420px;
+    height: 300px;
+  }
+  /*-----------signspage*/
+  h2.signheading {
+    font-size: 190%;
+  }
+  
+  .bulletpoints , p {
+    font-size: 130%;
+  }
+}
+
+@media screen and (min-width: 1400px) {
 
   footer {
     margin-top: 5%;
@@ -215,6 +249,14 @@ p#thankyoup {
   #menu li {
     display: inline;
     font-size: 130%;
+  }
+  
+  h2#logo {
+    font-size: 280%;
+  }
+
+  ul#menu {
+    font-size: 110%;
   }
   /*-------------------home page*/
   .left {
@@ -285,6 +327,7 @@ p#thankyoup {
   
   ul.bulletpoints {
     text-align: center;
+    font-size: 100%;
   }
 
   #autismgirls {
@@ -298,9 +341,19 @@ p#thankyoup {
   .rightgirls {
     width: 350px;
   }
+
+  h2.signheading {
+    font-size: 1.5em;
+  }
+  /*----------------contact us page*/
+  #formbg {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
   /*----------------thankyou page*/
   .thankyouimg {
     width: 400px;
     padding-bottom: 5%;
   }
 }
+
