@@ -197,9 +197,10 @@ My footer seemed to slide to the left, so I inspected this and found the problem
    
 ### W3C Validator 
 The W3C validator was used to validate the HTML on all pages of the website and the CSS in style.css file.
-* [Index page html]
-* [Signs page html]
-* [Contact us page html]
+* [Index page html](documentation/hpvalidatorr.png)
+* [Signs page html](documentation/signsvalidator.png)
+* [Contact us page html](documentation/contactvalidator.png)
+* [Thank you page html](documentation/thankyouvalidator.png)
 * [Style.css CSS]
 
 ### Testing User Stories 
