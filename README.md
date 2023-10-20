@@ -235,6 +235,7 @@ The W3C validator was used to validate the HTML on all pages of the website and 
 * [Style.css CSS]
 
 ### Lighthouse
+I used Lighthouse chrome developer tools to test the performance, accessibility, best practices and SEO of the website. It was suggested to add meta description and aria label to my footers icons on each page, so I did.
 
 ### Full testing 
 
