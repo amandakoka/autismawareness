@@ -1,5 +1,5 @@
 # Autism Awareness Website 
-[View live website here](https://amandakoka.github.io/autismawareness/)
+[View website here](https://amandakoka.github.io/autismawareness/)
 ## Introduction 
 The Autism awareness website is designed to be a responsive website allowing visitors to view on a range of devices from iPhone, tablet and desktop. It is an informative website in which users can use to learn about what autism is, the signs of autism and find support. This website is designed to inform users of autism. It contains information regarding autism ranging from the diagnosis, signs and symptoms, contact and support.The website is comprised of 3 pages, in which are accessible from the navigation menu (home page, signs page, contact us page). And a thank you page which can be seen after submitting your form on the contact page. 
 
@@ -16,8 +16,7 @@ The Autism awareness website is designed to be a responsive website allowing vis
    * [Languages used](#languages-used)
    * [Frameworks, Libaries and Programs Used](#frameworks,-libaries-and-programs-used)
 5. [Testing](#testing)
-   * [Solved bugs](#solvedbugs)
-   * [Known bugs](#knownbugs)
+   * [Bugs](#bugs)
    * [W3C validator](#w3cvalidator)
    * [Testing User Stories](#testinguserstories)
    * [Full testing](#fulltesting)
@@ -70,7 +69,7 @@ The autism awareness website is a great way to meet these needs because:
 
 #### Returning visitors: 
 
-1. As a returning visitor, I want to check my knowledge on autism and find information about it
+1. As a returning visitor, I want to check my knowledge on autism and find information about it.
 2. As a returning visitor, I want to find ways to get in contact with any questions I may have.
 3. As a returning visitor, I want to watch find the video I watched the first time visiting describing what autism is.
 
@@ -91,7 +90,11 @@ The autism awareness website is a great way to meet these needs because:
 
 ### Colour Scheme/Images 
 
-I first started looking at the colors I would use for my website. I decided blue because blue is the color that represents autism and blue is associated with trustworthiness, honesty, reliablity and is used a lot in the health sector which autism is a part of. However I then realized that I will be adding images and that they need to go well with the websites colour scheme so I started looking at the images I will include in my website then decide on the color scheme. I decided on the images from [freepix](https://www.freepik.com/author/vectorjuice)(credited in the credits section) and found a color scheme based on the images using [Canva](https://www.canva.com/colors/color-palette-generator/). I decided to stick with the blue theme still as it represents autism, but use the type of blue in the images (#4243E4). I then looked on the website [color hexa](https://www.colorhexa.com) for different shades and tints, and found #CBCCF8 a lighter tint to go together with the blue. I want to keep the colors clean and simple so the user can focus on the information and content but with it still looking appealing. 
+I first started looking at the colors I would use for my website. I decided blue because blue is the color that represents autism and blue is associated with trustworthiness, honesty, reliablity and is used a lot in the health sector which autism is a part of. However I then realized that I will be adding images and that they need to go well with the websites colour scheme so I started looking at the images I will include in my website then decide on the color scheme. 
+
+I decided on the images from [freepix](https://www.freepik.com/author/vectorjuice)(credited in the credits section) and found a color scheme based on the images using [Canva](https://www.canva.com/colors/color-palette-generator/). I decided to stick with the blue theme still as it represents autism, but use the type of blue in the images (#4243E4). 
+
+I then looked on the website [color hexa](https://www.colorhexa.com) for different shades and tints, and found #CBCCF8 a lighter tint to go together with the blue. I want to keep the colors clean and simple so the user can focus on the information and content but with it still looking appealing. 
 
 ![img of cartoon boys playing with blocks](documentation/autismboys.jpg) ![color scheme from images above](documentation/colorscheme.png) 
 
@@ -114,8 +117,6 @@ Google fonts was used for the fonts:
 * [Home page](documentation/homepagewireframe.png) 
 * [Signs page](documentation/signspagewireframe.png) 
 * [Contact us page](documentation/contactuswireframe.png) 
-
-
 
 ## Features
 The website is comprised of 3 pages, in which are accessible from the navigation menu (home page, signs page, contact us page).
@@ -172,9 +173,9 @@ Roboto and archivo pair well together. Roboto uses simplified characters which s
 ## Testing
 Testing was ongoing throughout the entire build of the webiste. I utilised Chrome Developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
-### Solved Bugs
+### Bugs
 
-The following issues were raised during my mid project meeting with my mentor:
+#### First project meeting with my mentor:
 1. My images were wider than the rest of my main content while on mobile view
    * I solved this by removing the background of the images and reducing the size so it would fit better on different screen sizes.
      ![Home page image](documentation/imagebug.png)
@@ -183,10 +184,17 @@ The following issues were raised during my mid project meeting with my mentor:
 4. There was too much text and content, so I cut down the amount of information throughout the webiste.
 
 #### Whilst coding
-![Footer Bug](documentation/footerbug.png) My footer seemed to slide to the left, so I inspected this and found the problem and resolved it by adding space above the footer so the image wasn't obstructing or in the way of the footer.
+My footer seemed to slide to the left, so I inspected this and found the problem and resolved it by adding space above the footer so the image wasn't obstructing or in the way of the footer.
+![Footer Bug](documentation/footerbug.png) 
 
-### Known Bugs
-
+#### Mid project meeting with my mentor:
+1. On my contact page, when clicking the submit button, it wasnt being redirected to the thankyou.html page. I Solved this by adding the method and action to the form.
+2. On certain sizes, there were issues with my page 2 top section.
+   * ![Tablet bug](documentation/tabletbug.PNG)
+3. The bottom section of the second page was different to the first, so it was recommended to maybe try keep the consistency so I decided to.
+   ![Home page 2nd section](documentation/hp-bottomsection.png)
+   ![Signs page 2nd section](documentation/signspage-bottomsec.png)
+   
 ### W3C Validator 
 The W3C validator was used to validate the HTML on all pages of the website and the CSS in style.css file.
 * [Index page html]
@@ -195,6 +203,35 @@ The W3C validator was used to validate the HTML on all pages of the website and 
 * [Style.css CSS]
 
 ### Testing User Stories 
+* First time visitors  
+
+  * I want to easily understand the main purpose of the site and learn more about the Autism. Straight away on the home page a user 
+  knows what the website is and explains about autism.
+  ![What is autism page](documentation/whatisautismfirsttime.png)
+
+  * I want to be able to easily navigate throughout the site to find content and information I need. All site navigation is in the top 
+  navigation bar which is consistent throughout all pages on the site.
+  ![Naviagtion bar](documentation/navdeskfirsttime.png)
+  ![Naviagtion bar mob](documentation/navmobfirsttime.png)
+
+  * I want to see the signs of autism, I also want to find links to social media, to see how trusted and known they are. Easy to find 
+  signs page in navigation bar with information on signs. Footer consisting of social medias at the bottom of each page throughout the 
+  website.
+  ![Signs page](documentation/signsfirsttime.png)
+  ![Footer](documentation/sociallinksfirst.png)
+
+* Returning visitors  
+
+  * I want to check my knowledge on autism and find information about it. All information is up to date and easy to understand, users 
+  can visit the website again and find the information they need. 
+
+  * I want to find ways to get in contact with any questions I may have. Contact page is easily navigated and allows users to send 
+  their message.
+  ![Contact page](documentation/contactreturn.png)
+
+  * I want to watch find the video I watched the first time visiting describing what autism is.
+  ![Video](documentation/videoreturn.png)
+
 ### Full testing 
 
 
