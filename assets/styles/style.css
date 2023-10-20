@@ -185,18 +185,25 @@ input, textarea {
   margin-bottom: 0;
 }
 /*--------------thankyou page*/
+h1#tyheader {
+  padding-top: 15%;
+  text-align: center;
+}
+
 .thankyouimg {
   padding-bottom: 20%;
+  text-align: center;
 }
 
 .thankyoup {
   padding-top: 10%;
+  text-align: center;
 }
 
 p#thankyoup {
   text-align: center;
   margin: 0;
-  padding: 0;
+  padding-top: 5%;
 }
 /*------------------------------------------------------------media queries*/
 @media screen and (min-width: 768px) {
@@ -232,6 +239,18 @@ p#thankyoup {
   
   .bulletpoints , p {
     font-size: 130%;
+  }
+  /*--------thankyoupage*/
+  h1#tyheader {
+    padding-top: 30%;
+  }
+  
+  p#thankyoup {
+    padding-top: 5%;
+  }
+
+  .thankyouimg {
+    padding-top: 3%;
   }
 }
 
@@ -351,9 +370,20 @@ p#thankyoup {
     padding-bottom: 10%;
   }
   /*----------------thankyou page*/
+  h1#tyheader {
+    padding-top: 10%;
+  }
+
+  p#thankyoup {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 1%;
+    padding-right: 0;
+  }
+
   .thankyouimg {
-    width: 400px;
-    padding-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 1%;
   }
 }
 
