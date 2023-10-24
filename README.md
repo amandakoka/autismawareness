@@ -242,87 +242,79 @@ The W3C validator was used to validate the HTML on all pages of the website and 
 
 ### Lighthouse
 I used Lighthouse chrome developer tools to test the performance, accessibility, best practices and SEO of the website. It was suggested to add meta description and aria label to my footers icons on each page, so I did this then tested again.
+* [Home page](documentation/lighthousehp.png)
+* [Signs page](documentation/lighthousesigns.png)
+* [Contact page](documentation/lighthousecontact.png)
+* [Thank you page](documentation/lighthousety.png)
 
 ## Full testing 
-To fully test the webiste, I performed the following testing on browsers(Google Chrome, Safari and Firefox) and on devices(MacBook Air 13 inch, Iphone 11, Iphone12, Iphone12 mini, Ipad 7th generation). I also went through each page using google chrome developer tools to ensure the responsiveness on different screen sizes. 
+To fully test the webiste, I performed the following testing on browsers(Google Chrome, Safari and Firefox) and on devices(MacBook Air 13 inch, Iphone12, Iphone12 mini, Ipad 7th generation). I also went through each page using google chrome developer tools to ensure the responsiveness on different screen sizes. 
 
 ## Google Chrome
 #### Links
-* Macbook air:
-* Iphone 11:
-* Iphone 12:
+* Macbook air: All links across site working, footer links open in new tab.
+* Iphone 12: Social media links in the footer open in new tab. Links in navbar to differnt pages work. Link to signs page in homepage text works.
 * Iphone 12 mini:
-* Ipad:
+* Ipad: All links successfull, naviagtion links work to go on other pages. The Signs of autism link on home page works and takes you to sigs of autism page. Social media links in the footer open in new tab for better user experience.
 #### Text Content
-* Macbook air:
-* Iphone 11:
-* Iphone 12:
+* Macbook air:  All text content readable and desktop view.
+* Iphone 12: All information is there and clear, easy to read.
 * Iphone 12 mini:
-* Ipad:
+* Ipad: All text and headings appear and are easy to read.
 #### Media Content
-* Macbook air:
-* Iphone 11:
-* Iphone 12:
+* Macbook air: Images are clear, in desktop view. Youtube video plays when clicked, can open full screen.
+* Iphone 12: Images appear in the right place and are clear. Youtube vidoe runs if pressed.
 * Iphone 12 mini:
-* Ipad:
+* Ipad: Images show as needed on each page and the youtube video plays when clicked.
 #### Contact Us Page
-* Macbook air:
-* Iphone 11:
-* Iphone 12:
+* Macbook air: Form doesn't submit without all fields required, if only filled once, it will ask to fill out the other sections before submitted. Once submitted, thank you page opens successfully.
+* Iphone 12: Form will not submit without all fields filled. Once submitted, thankyou page opens.
 * Iphone 12 mini:
-* Ipad:
+* Ipad: When filling out the form you are required to fill out all section before you press submit, it will not allow users to submit. Once it is filled and submitted, you are redirected to the thank you page.
 
 ## Safari
 #### Links
-* Macbook air:
-* Iphone 11:
-* Iphone 12:
+* Macbook air: All links across site working, footer links open in new tab.
+* Iphone 12: Social media links in the footer open in new tab. Links in navbar to differnt pages work. Link to signs page in homepage text works.
 * Iphone 12 mini:
-* Ipad:
+* Ipad: All links successfull, naviagtion links work to go on other pages. The Signs of autism link on home page works and takes you to sigs of autism page. Social media links in the footer open in new tab for better user experience.
 #### Text Content
-* Macbook air:
-* Iphone 11:
-* Iphone 12:
+* Macbook air: All text content readable and desktop view.
+* Iphone 12: All information is there and clear, easy to read.
 * Iphone 12 mini:
-* Ipad:
+* Ipad: All text and headings appear and are easy to read.
 #### Media Content
-* Macbook air:
-* Iphone 11:
-* Iphone 12:
+* Macbook air: Images are clear, in desktop view. Youtube video plays when clicked, can open full screen.
+* Iphone 12: Images appear in the right place and are clear. Youtube vidoe runs if pressed.
 * Iphone 12 mini:
-* Ipad:
+* Ipad: Images show as needed on each page and the youtube video plays when clicked.
 #### Contact Us Page
-* Macbook air:
-* Iphone 11:
-* Iphone 12:
+* Macbook air: Form doesn't submit without all fields required, if only filled once, it will ask to fill out the other sections before submitted. Once submitted, thank you page opens successfully.
+* Iphone 12: Form will not submit without all fields filled. Once submitted, thankyou page opens.
 * Iphone 12 mini:
-* Ipad:
+* Ipad: When filling out the form you are required to fill out all section before you press submit, it will not allow users to submit. Once it is filled and submitted, you are redirected to the thank you page.
 
 ## Firefox
 #### Links
-* Macbook air:
-* Iphone 11:
-* Iphone 12:
+* Macbook air: All links across site working, footer links open in new tab. The logo has a visible line underneath showing the link, which doesn't appear in the other browsers.
+* Iphone 12: Social media links in the footer open in new tab. Links in navbar to differnt pages work. Link to signs page in homepage text works.
 * Iphone 12 mini:
-* Ipad:
+* Ipad: All links successfull, naviagtion links work to go on other pages. The Signs of autism link on home page works and takes you to sigs of autism page. Social media links in the footer open in new tab for better user experience.
 #### Text Content
-* Macbook air:
-* Iphone 11:
-* Iphone 12:
+* Macbook air: All text content readable and desktop view. Logo has a link line underneath.
+* Iphone 12: All information is there and clear, easy to read.
 * Iphone 12 mini:
-* Ipad:
+* Ipad: All text and headings appear and are easy to read.
 #### Media Content
-* Macbook air:
-* Iphone 11:
-* Iphone 12:
+* Macbook air: Images are clear, in desktop view. Youtube video plays when clicked, can open full screen.
+* Iphone 12: Images appear in the right place and are clear. Youtube vidoe runs if pressed.
 * Iphone 12 mini:
-* Ipad:
+* Ipad: Images show as needed on each page and the youtube video plays when clicked.
 #### Contact Us Page
-* Macbook air:
-* Iphone 11:
-* Iphone 12:
+* Macbook air: Form doesn't submit without all fields required, if only filled once, it will ask to fill out the other sections before submitted. Once submitted, thank you page opens successfully.
+* Iphone 12: Form will not submit without all fields filled. Once submitted, thankyou page opens.
 * Iphone 12 mini:
-* Ipad:
+* Ipad: When filling out the form you are required to fill out all section before you press submit, it will not allow users to submit. Once it is filled and submitted, you are redirected to the thank you page.
 
 ## Deployment 
 GitHub was used to deploy the live website. To do this you need to:
@@ -363,3 +355,8 @@ To clone:
 3. W3Schools being resource for information if needed. 
 
 ### Acknowledgements 
+
+I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
+
+* Robert Mclaughlin - my tutor. 
+* Luke Buchanan - my Code institute Mentor
