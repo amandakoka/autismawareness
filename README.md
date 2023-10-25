@@ -1,7 +1,10 @@
 # Autism Awareness Website 
 [View website here](https://amandakoka.github.io/autismawareness/)
 ## Introduction 
-The Autism awareness website is designed to be a responsive website allowing visitors to view on a range of devices from iPhone, tablet and desktop. It is an informative website in which users can use to learn about what autism is, the signs of autism and find support. This website is designed to inform users of autism. It contains information regarding autism ranging from the diagnosis, signs and symptoms, contact and support.The website is comprised of 3 pages, in which are accessible from the navigation menu (home page, signs page, contact us page). And a thank you page which can be seen after submitting your form on the contact page. 
+
+The Autism awareness website is designed to be a responsive website allowing visitors to view on a range of devices from iPhone, tablet and desktop. It is an informative website in which users can use to learn about what autism is, the signs of autism and find support. This website is designed to inform users of autism. It contains information regarding autism ranging from the diagnosis, signs and symptoms, contact and support. The website is comprised of 3 pages, in which are accessible from the navigation menu (home page, signs page, contact us page) and a thank you page which can be seen after submitting your form on the contact page. 
+
+![Website on different devices](documentation/websiteview.png)
 
 ## Table of Contents  
 
@@ -27,7 +30,7 @@ The Autism awareness website is designed to be a responsive website allowing vis
 
 ## User experience 
 #### Project goals
-The primary goal of the autism awareness website is to provide information and to educate users on autism. Its target audience is: students and parents with children(children with autism). 
+The primary goal of the autism awareness website is to provide information and to educate users on autism. Its target audience is: students and parents with children (children with autism). 
 #### Student goals 
 Student goals are: 
 
@@ -40,7 +43,7 @@ The autism awareness website is a great way to meet these needs because:
 * Planning of the webiste and design process took these needs into account before starting to build. 
 * A simple but effective navbar is used, in which a user can easily navigate to where is needed. 
 * Information is layout in a clear structure in which users can easily read and understand. 
-* Videos and images are all related to autism and even have the same colour scheme( which also goes with the theme of the website). 
+* Videos and images are all related to autism and even have the same colour scheme (which also goes with the theme of the website). 
 
 #### Parent goals 
 Parents goals are: 
@@ -58,7 +61,7 @@ The autism awareness website is a great way to meet these needs because:
  ### User Stories  
  #### User goals: 
 
-1. Be able to view the website on a range of device sizes(mobile, tablet, desktop)  
+1. Be able to view the website on a range of device sizes (mobile, tablet, desktop)  
 2. Make is easy for users to use and navigate to different pages to find information they need. 
 3. To allow users the ability to contact to ask questions or with any messages they want to leave ect.. 
 
@@ -91,7 +94,7 @@ The autism awareness website is a great way to meet these needs because:
 
 ### Colour Scheme/Images 
 
-I first started looking at the colors I would use for my website. I decided blue because blue is the color that represents autism and blue is associated with trustworthiness, honesty, reliablity and is used a lot in the health sector which autism is a part of. However I then realized that I will be adding images and that they need to go well with the websites colour scheme so I started looking at the images I will include in my website then decide on the color scheme. 
+I first started looking at the colors I would use for my website. I decided on blue because blue is the color that represents autism and blue is associated with trustworthiness, honesty, reliablity and is used a lot in the health sector which autism is a part of. However, I then realized that I will be adding images and that they need to go well with the websites colour scheme so I started looking at the images I will include in my website then decide on the color scheme. 
 
 I decided on the images from [freepix](https://www.freepik.com/author/vectorjuice)(credited in the credits section) and found a color scheme based on the images using [Canva](https://www.canva.com/colors/color-palette-generator/). I decided to stick with the blue theme still as it represents autism, but use the type of blue in the images (#4243E4). 
 
@@ -104,7 +107,7 @@ I then looked on the website [color hexa](https://www.colorhexa.com) for differe
 ![shades of blue chosen](documentation/shades.png) ![color hex](documentation/colorhex2.png) 
 
 ### Imagery
-All images have the same colours so they are consistent and appealing to the eye. Users wont get confused with different colours and the images are user friendly for all ages.
+All images have the same colours so they are consistent and appealing to the eye. Users won't get confused with different colours and the images are user friendly for all ages.
 
 ### Typography  
 
@@ -132,10 +135,10 @@ What is autism section- explains what autism is with an image to the right of th
 Signs in children and adults with a picture in the middle. Signs of autism in girls' section – text explaining autism in girls with an image to the right.
 
 #### Contact us page: 
-Form that contains name, email address and ‘your message’ section for the user to write what they would like to contact about. The user submits this by using the submit button. Users must fill in the name, email and message area to submit if they don’t a tooltip guides users to fill in sections they have missed. Once you submit, the user will be taken to a thank you page which has a message saying thankyou for contacting us!!
+Form that contains name, email address and ‘your message’ section for the user to write what they would like to contact about. The user submits this by using the submit button. Users must fill in the name, email and message area to submit if they don’t a tooltip guides users to fill in sections they have missed. Once you submit, the user will be taken to a thank you page which has a message saying thank you for contacting us!!
 
 #### Thank you page:
-Has a comment saying thankyou for contacting and a sentence saying we will be back in touch soon. And an image beneath tying all the images used on the website together. 
+Has a comment saying thank you for contacting and a sentence saying we will be back in touch soon and an image beneath tying all the images used on the website together. 
 
 ### Accessibility  
 
@@ -172,35 +175,49 @@ Roboto and archivo pair well together. Roboto uses simplified characters which s
 8. [Retoucher](https://retoucher.online/) to remove background of images.
 
 ## Testing
-Testing was ongoing throughout the entire build of the webiste. I utilised Chrome Developer tools while building to pinpoint and troubleshoot any issues as I went along.
+Testing was ongoing throughout the entire build of the website. I utilised Chrome Developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
 ### Bugs
 
 #### First project meeting with my mentor:
 1. My images were wider than the rest of my main content while on mobile view
    * I solved this by removing the background of the images and reducing the size so it would fit better on different screen sizes.
+   
      ![Home page image](documentation/imagebug.png)
+     
 2. My tiles and content were not alligned on larger screens, so I alligned and styled all headings and content consistent throughout the website.
 3. On larger screens my footer, floated a little up the page with a bar below. I solved this by removing the height style in my media query.
 4. There was too much text and content, so I cut down the amount of information throughout the webiste.
 
-#### Whilst coding
+
+#### Distorted footer 
 * My footer seemed to slide to the left, so I inspected this and found the problem and resolved it by adding space above the footer so the image wasn't obstructing or in the way of the footer.
 ![Footer Bug](documentation/footerbug.png) 
 
+
+
 #### Mid project meeting with my mentor:
-1. On my contact page, when clicking the submit button, it wasnt being redirected to the thankyou.html page. I Solved this by adding the method and action to the form.
+1. On my contact page, when clicking the submit button, it wasn't being redirected to the thankyou.html page. I solved this by adding the method and action to the form.
 2. On certain sizes, there were issues with my page 2 top section. I fixed this by adding css media query.
+ 
    * ![Tablet bug](documentation/tabletbug.PNG)
+     
 3. The bottom section of the second page was different to the first, so it was recommended to maybe try keep the consistency so I decided to keep them consistent.
    ![Home page 2nd section](documentation/hp-bottomsection.png)
    ![Signs page 2nd section](documentation/signspage-bottomsec.png)
+
+
    
-#### Whilst coding
-* My contact and thankyou page were distorted when in tablet view and not filling the view properly. I fixed this by adding media query for tablet view and adding different styles.
+#### Distorted pages in tablet view
+* My contact and thank you page were distorted when in tablet view and not filling the view properly. I fixed this by adding media query for tablet view and adding different styles.
+  
   ![Contact, Thank you Bug](documentation/contacttabletbug.png)
+  
 * Whilst checking different devices on chrome tools I found that on galaxy fold the logo is too big and goes off the page.
+  
   ![Galaxy Fold bug](documentation/galaxyfoldbug.png)
+
+
     
 ### Testing User Stories 
 * First time visitors  
@@ -233,7 +250,7 @@ Testing was ongoing throughout the entire build of the webiste. I utilised Chrom
   ![Video](documentation/videoreturn.png)
 
 ### W3C Validator 
-The W3C validator was used to validate the HTML on all pages of the website and the CSS in style.css file.
+The W3C validator was used to validate the HTML on all pages of the website and the CSS in style.css file. All html and css on pages passed through the validator testing.
 * [Index page html](documentation/hpvalidatorr.png)
 * [Signs page html](documentation/signsvalidator.png)
 * [Contact us page html](documentation/contactvalidator.png)
@@ -242,78 +259,77 @@ The W3C validator was used to validate the HTML on all pages of the website and 
 
 ### Lighthouse
 I used Lighthouse chrome developer tools to test the performance, accessibility, best practices and SEO of the website. It was suggested to add meta description and aria label to my footers icons on each page, so I did this then tested again.
-* [Home page](documentation/lighthousehp.png)
-* [Signs page](documentation/lighthousesigns.png)
-* [Contact page](documentation/lighthousecontact.png)
-* [Thank you page](documentation/lighthousety.png)
+* [Home page](documentation/Homelighthouse.PNG)
+* [Signs page](documentation/signslighthouse.png)
+* [Contact page](documentation/Contactlighthouse.PNG)
 
 ## Full testing 
-To fully test the webiste, I performed the following testing on browsers(Google Chrome, Safari and Firefox) and on devices(MacBook Air 13 inch, Iphone12, Iphone12 mini, Ipad 7th generation). I also went through each page using google chrome developer tools to ensure the responsiveness on different screen sizes. 
+To fully test the website, I performed the following testing on browsers (Google Chrome, Safari and Firefox) and on devices(MacBook Air 13 inch, Iphone12, Iphone12 mini, Ipad 7th generation). I also went through each page using google chrome developer tools to ensure the responsiveness on different screen sizes. 
 
 ## Google Chrome
 #### Links
 * Macbook air: All links across site working, footer links open in new tab.
 * Iphone 12: Social media links in the footer open in new tab. Links in navbar to differnt pages work. Link to signs page in homepage text works.
-* Iphone 12 mini:
+* Iphone 12 mini: All links succesful when clicked.
 * Ipad: All links successfull, naviagtion links work to go on other pages. The Signs of autism link on home page works and takes you to sigs of autism page. Social media links in the footer open in new tab for better user experience.
 #### Text Content
 * Macbook air:  All text content readable and desktop view.
 * Iphone 12: All information is there and clear, easy to read.
-* Iphone 12 mini:
+* Iphone 12 mini: Text clear and in mobile view.
 * Ipad: All text and headings appear and are easy to read.
 #### Media Content
 * Macbook air: Images are clear, in desktop view. Youtube video plays when clicked, can open full screen.
 * Iphone 12: Images appear in the right place and are clear. Youtube vidoe runs if pressed.
-* Iphone 12 mini:
+* Iphone 12 mini: All images are clear and youtube video plays when clicked.
 * Ipad: Images show as needed on each page and the youtube video plays when clicked.
 #### Contact Us Page
 * Macbook air: Form doesn't submit without all fields required, if only filled once, it will ask to fill out the other sections before submitted. Once submitted, thank you page opens successfully.
 * Iphone 12: Form will not submit without all fields filled. Once submitted, thankyou page opens.
-* Iphone 12 mini:
+* Iphone 12 mini: Form will not submit when only one field is filled it will ask you to fill all fields first before you can submit. Thank you page opens when submitted.
 * Ipad: When filling out the form you are required to fill out all section before you press submit, it will not allow users to submit. Once it is filled and submitted, you are redirected to the thank you page.
 
 ## Safari
 #### Links
 * Macbook air: All links across site working, footer links open in new tab.
 * Iphone 12: Social media links in the footer open in new tab. Links in navbar to differnt pages work. Link to signs page in homepage text works.
-* Iphone 12 mini:
+* Iphone 12 mini: All links succesful when clicked.
 * Ipad: All links successfull, naviagtion links work to go on other pages. The Signs of autism link on home page works and takes you to sigs of autism page. Social media links in the footer open in new tab for better user experience.
 #### Text Content
 * Macbook air: All text content readable and desktop view.
 * Iphone 12: All information is there and clear, easy to read.
-* Iphone 12 mini:
+* Iphone 12 mini: Text clear and in mobile view.
 * Ipad: All text and headings appear and are easy to read.
 #### Media Content
 * Macbook air: Images are clear, in desktop view. Youtube video plays when clicked, can open full screen.
 * Iphone 12: Images appear in the right place and are clear. Youtube vidoe runs if pressed.
-* Iphone 12 mini:
+* Iphone 12 mini: All images are clear and youtube video plays when clicked.
 * Ipad: Images show as needed on each page and the youtube video plays when clicked.
 #### Contact Us Page
 * Macbook air: Form doesn't submit without all fields required, if only filled once, it will ask to fill out the other sections before submitted. Once submitted, thank you page opens successfully.
 * Iphone 12: Form will not submit without all fields filled. Once submitted, thankyou page opens.
-* Iphone 12 mini:
+* Iphone 12 mini: Form will not submit when only one field is filled it will ask you to fill all fields first before you can submit. Thank you page opens when submitted.
 * Ipad: When filling out the form you are required to fill out all section before you press submit, it will not allow users to submit. Once it is filled and submitted, you are redirected to the thank you page.
 
 ## Firefox
 #### Links
 * Macbook air: All links across site working, footer links open in new tab. The logo has a visible line underneath showing the link, which doesn't appear in the other browsers.
 * Iphone 12: Social media links in the footer open in new tab. Links in navbar to differnt pages work. Link to signs page in homepage text works.
-* Iphone 12 mini:
+* Iphone 12 mini: All links succesful when clicked.
 * Ipad: All links successfull, naviagtion links work to go on other pages. The Signs of autism link on home page works and takes you to sigs of autism page. Social media links in the footer open in new tab for better user experience.
 #### Text Content
 * Macbook air: All text content readable and desktop view. Logo has a link line underneath.
 * Iphone 12: All information is there and clear, easy to read.
-* Iphone 12 mini:
+* Iphone 12 mini: Text clear and in mobile view.
 * Ipad: All text and headings appear and are easy to read.
 #### Media Content
 * Macbook air: Images are clear, in desktop view. Youtube video plays when clicked, can open full screen.
 * Iphone 12: Images appear in the right place and are clear. Youtube vidoe runs if pressed.
-* Iphone 12 mini:
+* Iphone 12 mini: All images are clear and youtube video plays when clicked.
 * Ipad: Images show as needed on each page and the youtube video plays when clicked.
 #### Contact Us Page
 * Macbook air: Form doesn't submit without all fields required, if only filled once, it will ask to fill out the other sections before submitted. Once submitted, thank you page opens successfully.
 * Iphone 12: Form will not submit without all fields filled. Once submitted, thankyou page opens.
-* Iphone 12 mini:
+* Iphone 12 mini: Form will not submit when only one field is filled it will ask you to fill all fields first before you can submit. Thank you page opens when submitted.
 * Ipad: When filling out the form you are required to fill out all section before you press submit, it will not allow users to submit. Once it is filled and submitted, you are redirected to the thank you page.
 
 ## Deployment 
@@ -345,13 +361,13 @@ To clone:
 ### Content and Media
 1. All images came from [freepik by vectorjuice](https://www.freepik.com/author/vectorjuice)
 2. The video used in the webiste is from [youtube by the national autistic society](https://www.youtube.com/watch?v=Lk4qs8jGN4U) 
-3. Information and facts on home page used from [here](https://www.autism.org.uk/advice-and-guidance/what-is-autism) 
-4. Information and facts on signs page used from[here](https://www.nhs.uk/conditions/autism/signs)
-5. Information and facts on autism in girls section from[here](https://childmind.org/article/autistic-girls-overlooked-undiagnosed-autism/)
+3. Information and facts on home page used from [the national autistic society website](https://www.autism.org.uk/advice-and-guidance/what-is-autism) 
+4. Information and facts on signs page used from[ the NHS website](https://www.nhs.uk/conditions/autism/signs)
+5. Information and facts on autism in girls section from[ childmind institute](https://childmind.org/article/autistic-girls-overlooked-undiagnosed-autism/)
 
 ### Code
 1. CSS code for footer used from code institutes love running project and edited for my website. 
-2. CSS code for contact page form was taken from this [website](https://stjepanmesaros.github.io/portfolio-project-one-anxiety/contact.html) and edited to fit my websites needs.
+2. CSS code for contact page form was taken from this [anxiety disorder website](https://stjepanmesaros.github.io/portfolio-project-one-anxiety/contact.html) and edited to fit my websites needs.
 3. W3Schools being resource for information if needed. 
 
 ### Acknowledgements 
