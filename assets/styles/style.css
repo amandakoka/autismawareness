@@ -21,7 +21,8 @@ img {
  margin-right: auto;
  width: 300px;
 }
-/*----------------------------------------------------header styling*/
+
+/*header styling*/
 h2 {
   font-family: "Archivo", sans-serif;;
   text-transform: uppercase;
@@ -66,7 +67,8 @@ a:-webkit-any-link {
   cursor: pointer;
   text-decoration: none;
 }
-/* ---------------------------------------------------------- home page top section styling*/ 
+
+/*home page top section styling*/ 
 h1 {
   font-size: 250%;
   font-family: "Archivo", sans-serif;;
@@ -86,7 +88,8 @@ p {
   margin-right: auto;
   padding-bottom: 5%;
 }
-/*-----------------------------------hp section2 styling*/
+
+/*hp section2 styling*/
 .section2 {
   background-color: #CBCCF8;
   margin: 2% 0 10% 0;
@@ -103,8 +106,9 @@ iframe {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/*------------------------------------------------------------footer styling*/
-/*-----------------------from code instutute love running project, edited to fit my website*/
+
+/*footer styling*/
+/*from code instutute love running project, edited to fit my website*/
 footer {
   background-color:#4243E4;
 }
@@ -123,7 +127,8 @@ footer {
   padding: 5%;
   color: #fefefe;
 }
-/*------------------------------------------------------------------------signs page styling*/
+
+/*signs page styling*/
 ul li {
   margin-bottom: 10px;
   margin-top: 10px;
@@ -136,6 +141,10 @@ ul li {
   text-align: left;
 }
 
+h2.signheading {
+    margin-bottom: 30px;
+}
+
 .signheading {
   color: #000000;
   text-transform: none;
@@ -146,13 +155,14 @@ ul li {
   text-align: center;
   margin-top: 4em;
 }
-/*------------------------------------------------------------------------contact us page styling*/
+
+/*contact us page styling*/
 #formbg {
   background-color:#CBCCF8;
   padding-top: 20%;
   padding-bottom: 25%;
 }
-/*----------code copied and edited to fit webistes need credited in my credits section in readme.md file*/
+/*code copied and edited to fit webistes need credited in my credits section in readme.md file*/
 form {
   display: flex;
   flex-direction: column;
@@ -169,7 +179,7 @@ input, textarea {
   border-radius: 4px;
   padding: 10px;
 }
-/*-------------------------*/
+/*end here*/
 #submit {
   margin-top: 10px;
   padding: 10px;
@@ -184,7 +194,8 @@ input, textarea {
   margin-top: 0;
   margin-bottom: 0;
 }
-/*--------------thankyou page*/
+
+/*thankyou page styling*/
 h1#tyheader {
   padding-top: 15%;
   text-align: center;
@@ -205,7 +216,8 @@ p#thankyoup {
   margin: 0;
   padding-top: 5%;
 }
-/*------------------------------------------------------------media queries*/
+
+/*media queries*/
 @media screen and (min-width: 768px) {
   
   img {
@@ -215,7 +227,8 @@ p#thankyoup {
   h1 {
     font-size: 280%;
   }
- /*-------------header*/
+  
+ /*header*/
   h2#logo {
     font-size: 350%;
   }
@@ -223,7 +236,8 @@ p#thankyoup {
   ul#menu {
     font-size: 130%;
   }
-  /*----------homepage*/
+  
+  /*homepage*/
   img.imgboys {
     padding-bottom: 0;
   }
@@ -232,7 +246,8 @@ p#thankyoup {
     width: 420px;
     height: 300px;
   }
-  /*-----------signspage*/
+  
+  /*signspage*/
   h2.signheading {
     font-size: 190%;
   }
@@ -240,7 +255,8 @@ p#thankyoup {
   .bulletpoints , p {
     font-size: 130%;
   }
-  /*--------thankyoupage*/
+  
+  /*thankyoupage*/
   h1#tyheader {
     padding-top: 30%;
   }
@@ -254,12 +270,13 @@ p#thankyoup {
   }
 }
 
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 1300px) {
 
   footer {
     margin-top: 5%;
   }
-  /*-------------------navbar*/
+  
+  /*navbar*/
   #logo, #menu {
     text-align: left;
     margin-left: 2%;
@@ -277,7 +294,8 @@ p#thankyoup {
   ul#menu {
     font-size: 110%;
   }
-  /*-------------------home page*/
+  
+  /*home page*/
   .left {
     text-align: left;
     padding: 5%;
@@ -319,7 +337,8 @@ p#thankyoup {
     margin-bottom: 3em;
 
   }
-  /*-----------------------signs page*/
+  
+  /*signs page*/
   #noshowdt {
     display: none;
   }
@@ -347,8 +366,13 @@ p#thankyoup {
   ul.bulletpoints {
     text-align: center;
     font-size: 100%;
+    list-style-type: none;
   }
 
+  ul li {
+    margin-bottom: 23px;
+  }
+  
   #autismgirls {
     font-size: 110%;
   }
@@ -364,12 +388,14 @@ p#thankyoup {
   h2.signheading { 
     font-size: 1.5em;
   }
-  /*----------------contact us page*/
+  
+  /*contact us page*/
   #formbg {
     padding-top: 10%;
     padding-bottom: 10%;
   }
-  /*----------------thankyou page*/
+  
+  /*thankyou page*/
   h1#tyheader {
     padding-top: 10%;
   }
